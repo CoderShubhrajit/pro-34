@@ -10,7 +10,7 @@ var block1,block2,block3,block4,block5,block6,block7,block8,block9,block10;
 
 function preload() {
 //preload the images here
-  backgroundImage = loadImage("pro34Images/GamingBackground.png");
+  backgroundImage = loadImage("GamingBackground.png");
 }
 
 function setup() {
