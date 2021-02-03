@@ -6,7 +6,7 @@ class Plane
             'isStatic': true,
         }
         this.body = Bodies.rectangle(400, 440, 650, 110, properties);
-        this.image = loadImage("pro34Images/aeroplane.png");
+        this.image = loadImage("aeroplane.png");
         World.add(world,this.body);
     }
     display()
