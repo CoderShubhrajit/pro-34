@@ -7,7 +7,7 @@ class Monster
             'density' : 1.0
         }
         this.body = Bodies.rectangle(550,320,120,160, properties);
-        this.image = loadImage("pro34Images/Monster-01.png");
+        this.image = loadImage("Monster-01.png");
         World.add(world,this.body);
     }
     display()
